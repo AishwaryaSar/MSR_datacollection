@@ -24,6 +24,9 @@
 ## Implementation of replication with subsections as follows:
 
 **Hardware requirements:** (incl. OS) for running your process.
+
 **Software requirements:** regarding frameworks, tools, etc. required for running your process.
+
 **Validation:** Any sort of advice on how to check that the output of your process makes sense.
+
 **Data:** What input, output, or temporary data is assumed or produced by your process? 
