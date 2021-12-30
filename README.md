@@ -13,7 +13,7 @@
 
 **Input data:** We will collect data from GitHub repositories in Java language which used Apache Maven.
 
-**Output data:** Output data will be a Dataset with the top APIs
+**Output data:** Output data will be a Dataset with the top APIs which is available for further analysis.
 
 ## Findings of replication with subsections as follows:
 
