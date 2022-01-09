@@ -215,7 +215,7 @@ public class RepositoriesPicker {
     private static List<String> filterRepositories(int starsLimit, int contributorsLimit, int commitsLimit)
             throws IOException, InterruptedException {
         List<String> filteredRepositories = new ArrayList<>();
-        for (int page = 1; page <= 10; page++) {
+        for (int page = 1; page <= 1; page++) {
             String url = Utils.GITHUB_API_URL + "search/repositories?q=language:java+stars:%3E=" + starsLimit
                     + "&sort=stars&order=asc&per_page=100&page=" + page;
             JsonObject repositories = request(url).getAsJsonObject();
@@ -254,10 +254,10 @@ public class RepositoriesPicker {
             // The GitHub Search API provides up to 1000 results for each search, therefore
             // the query is split into smaller queries using recursion and the stars of a
             // repository
-            if (page == 10 && itemsSize == 100) {
-                starsLimit = items.get(99).getAsJsonObject().get("stargazers_count").getAsInt();
-                filteredRepositories.addAll(filterRepositories(starsLimit, contributorsLimit, commitsLimit));
-            }
+//            if (page == 10 && itemsSize == 100) {
+//                starsLimit = items.get(99).getAsJsonObject().get("stargazers_count").getAsInt();
+//                filteredRepositories.addAll(filterRepositories(starsLimit, contributorsLimit, commitsLimit));
+//            }
         }
         return filteredRepositories;
     }

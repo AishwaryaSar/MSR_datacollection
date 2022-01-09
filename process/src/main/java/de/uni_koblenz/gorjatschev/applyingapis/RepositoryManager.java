@@ -51,16 +51,18 @@ public class RepositoryManager {
     public RepositoryManager(String repositoryName) throws GitAPIException, IOException {
          log.info("Creating repository manager for " + repositoryName + "...");
         this.repositoryName = repositoryName;
-        File gitDirectory = new File(Utils.T_GIT_FILES_DIR + this.repositoryName);
+        File gitDirectory = new File(Utils.T_GIT_FILES_DIR + this.repositoryName+".git");
         if (!gitDirectory.exists()) {
             Git.cloneRepository().setURI("https://github.com/" + this.repositoryName + ".git").setBare(true)
                     .setDirectory(gitDirectory).call().close();
         }
         this.repository = new FileRepositoryBuilder().setGitDir(gitDirectory).setMustExist(true).build();
+        log.info(this.repository);
         ObjectId head = this.repository.resolve(Constants.HEAD);
-        RevWalk revWalk = new RevWalk(this.repository);
+    	RevWalk revWalk = new RevWalk(this.repository);
         this.headRevision = revWalk.parseCommit(head);
         revWalk.close();
+        
     }
 
     /**
