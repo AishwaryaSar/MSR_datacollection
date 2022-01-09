@@ -21,11 +21,11 @@ public class Application {
      	private static final Logger log = Utils.getLogger();
         private static final boolean COLLECT_REPOSITORIES = false;
         private static final boolean GET_DEPENDENCIES_OF_COLLECTED_REPOSITORIES = true;
-        private static final boolean GET_MCR_TAGS_OF_COLLECTED_REPOSITORIES = true;
-        private static final boolean SELECT_REPOSITORIES = true;
-        private static final boolean PARSE_REPOSITORIES = true;
-        private static final boolean COLLECT_API_CATEGORIES = true;
-        private static final boolean DOWNLOAD_JARS = true;
+        private static final boolean GET_MCR_TAGS_OF_COLLECTED_REPOSITORIES = false;
+        private static final boolean SELECT_REPOSITORIES = false;
+        private static final boolean PARSE_REPOSITORIES = false;
+        private static final boolean COLLECT_API_CATEGORIES = false;
+        private static final boolean DOWNLOAD_JARS = false;
         private static final int STARS_LIMIT = 100; // at least 100 stars
         private static final int CONTRIBUTOR_LIMIT = 2; // at least 2 contributors
         private static final int COMMITS_LIMIT = 100; // at least 100 commits
