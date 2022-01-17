@@ -1,5 +1,4 @@
 repositoryName
-<<<<<<< HEAD
 SAP-archive/cloud-platform-iot-starterkit
 DataLinkDC/dlink
 SimpleAmazonGlacierUploader/SAGU
@@ -4286,24 +4285,3 @@ vkostyukov/la4j
 AthenZ/athenz
 spring-cloud/spring-cloud-skipper
 SeanDragon/protools
-=======
-dashorst/dashboard
-aeshell/aesh
-ethomson/jagged
-ahus1/prometheus-hystrix
-schierlm/OberonEmulator
-deric/clustering-benchmark
-RepreZen/KaiZen-OpenAPI-Editor
-OlivierLD/raspberry-coffee
-hortonworks-spark/spark-llap
-geekyouth/litemall-kl
-Tristan971/EasyFXML
-geosolutions-it/imageio-ext
-Devskiller/jpa2ddl
-Blazemeter/jmeter-bzm-plugins
-inspire-software/yes-cart
-opentracing-contrib/java-spring-web
-tjitze/RankPL
-cqyijifu/OpenFalcon-SuitAgent
-spring-cloud/spring-cloud-skipper
->>>>>>> 7b7eaad524a2b507b07e846f6eb199def1b50872
