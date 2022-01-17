@@ -25,10 +25,10 @@
 
 ### Problem delta:
 While performing the replication of the repository we faced technical errors which is also a reason for our result being different from the original repository result.
-- Permission Issue: Ran into authentication issues with various git repositories. As we were unable to access many repositories, our results might be different from the original described result. 
+- **Permission Issue:** Ran into authentication issues with various git repositories. As we were unable to access many repositories, our results might be different from the original described result. 
  <center style="padding: 40px"><img width="70%" src="https://github.com/AishwaryaSar/MSR_datacollection/blob/main/data/Image/permision.jpg" title="permision error" /> </center>
-- Error while reading POM file: After the collection of repositories fit the requirement process try to collected the dependency from the POM file. During the this process error like **Unrecognised tag** in many repositories POM file. <center style="padding: 40px"><img width="70%" src="https://github.com/AishwaryaSar/MSR_datacollection/blob/main/data/Image/error2.jpg" title="Unrecognised Tag" /> <img width="70%" src="https://github.com/AishwaryaSar/MSR_datacollection/blob/main/data/Image/error3.jpg" title="Unrecognised Tag" /></center>
-- response 403: We got the refuse to authorize from the most of the repositories while collecting MCR tags  from the .[Maven central repository](https://mvnrepository.com/artifact/). <center style="padding: 40px"><img width="70%" src="https://github.com/AishwaryaSar/MSR_datacollection/blob/main/data/Image/connectionerror.jpg" title="Error 403" /> </center> 
+- **Error while reading POM file:** After the collection of repositories fit the requirement process try to collected the dependency from the POM file. During the this process error like **Unrecognised tag** in many repositories POM file. <center style="padding: 40px"><img width="70%" src="https://github.com/AishwaryaSar/MSR_datacollection/blob/main/data/Image/error2.jpg" title="Unrecognised Tag" /> <img width="70%" src="https://github.com/AishwaryaSar/MSR_datacollection/blob/main/data/Image/error3.jpg" title="Unrecognised Tag" /></center>
+- **response 403:** We got the refuse to authorize from the most of the repositories while collecting MCR tags  from the .[Maven central repository](https://mvnrepository.com/artifact/). <center style="padding: 40px"><img width="70%" src="https://github.com/AishwaryaSar/MSR_datacollection/blob/main/data/Image/connectionerror.jpg" title="Error 403" /> </center> 
 
  
 ## Implementation of replication :
