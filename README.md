@@ -9,7 +9,7 @@
  
 ## Baseline study :
  
-**Aspect:** Mine the APIs from the repositories by using the filters specified in the thesis paper and try to reproduce the dataset generated in the paper and compare it with the original dataset produced in the thesis.
+**Aspect:** Mine the APIs from the repositories by using the filters specified in the thesis paper and try to reproduce the dataset with the collected repositories. 
  
 **Input data:** Collected data from GitHub repositories in Java language which uses Apache Maven. 
  
