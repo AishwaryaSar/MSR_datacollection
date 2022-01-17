@@ -55,7 +55,7 @@ The processing of the java files for the collection of repositories, will take v
 
  **Data:** 
  
- 1. The applicatin creates many log files while crawling and collecting the repositories. 
+ 1. The application updates log files while crawling and collecting the repositories. 
  2. The details regarding the selected repositories are generated as CSV files, which can be found under the repositories_selected folder in the data folder. 
  3. Furthermore, details regarding the repositories collected, repositories with dependencies, repositories with mcr tags, dependecies and dependeicies with mcr tags are all generated and collected as individual CSV files under the data folder. 
  4. Finally, the analysis performed on the dependecies collected, result in files that have details regarding dependencies, dependency pairs, dependecy sets, MCR tag sets, along with the similarity analysis. These CSV files can be found with the suffix of _counted_ and _similarity_ under the data folder. 
